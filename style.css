@@ -1,0 +1,11 @@
+body{
+    margin-left: 50px;
+    background-color:#131342;
+    color: white;
+}
+
+#ProfilePicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
