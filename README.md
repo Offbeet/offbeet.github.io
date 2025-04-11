@@ -1,2 +1,2 @@
 # offbeet.github.io
-My website
+Currently being hosted through Github pages. Thanks! :D
