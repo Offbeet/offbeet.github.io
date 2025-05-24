@@ -1,0 +1,80 @@
+:root {
+    --nameSize: 2vw;
+  }
+
+.content-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    background-color: #0000006b;
+    margin: 25px auto auto auto;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 65vw;
+}
+
+.content-view.button {
+    display: flex;
+}
+
+.project-section {
+    display: flex;
+    width: 65vw;
+    max-height: 60vh;
+    background-color: #0000006b;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 25px auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.project-section-words {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    background-color: #131342;
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: var(--nameSize);
+    margin-top: auto;
+}
+
+.short-description {
+    background-color: #131342;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-bottom: auto;
+    font-size: ((2/7) * var(--nameSize));
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 25px;
+    margin-bottom: auto;
+    font-size: ((2/7) * var(--nameSize));
+}
+
+#view-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 101px;
+    height: 60px;
+}
+
+.project-video {
+    height: 50vh;
+    margin: auto 5rem auto auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#header-statement {
+    margin-top: 20px;
+}
