@@ -7,9 +7,10 @@
     .content-header {
       flex-direction: column;
       max-height: 90vh;
-      width: 100vw;
-      padding-left: 1vw;
-      padding-right: 1vw;
+      width: 100vh;
+      margin: 25px 1% auto 1%;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .content-header-words {
@@ -18,6 +19,7 @@
 
     #profile-picture {
         margin-bottom: auto;
+        margin-right: 0;
         height: 50vw;
         width: 50vw;
         max-width: none;
@@ -32,6 +34,7 @@
 
 .content-header {
     display: flex;
+    display: row;
     width: 65vw;
     max-height: 60vh;
     background-color: #0000006b;

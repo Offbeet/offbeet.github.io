@@ -3,8 +3,15 @@ body{
     font-family: 'Trebuchet MS';
 }
 
+@media screen and (max-width: 1300px) {
+    .content {
+        margin: 0 2vh 0 2vh;
+    }
+    
+  }
+
 .content {
-    margin: 0 5vw 0 5vw;
+    margin: 0 5vw 1vw 5vw;
     background-color:#131342;
     color: white;
     text-align: center;
