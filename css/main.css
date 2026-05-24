@@ -1,0 +1,43 @@
+.banner {
+    margin: 100px 300px auto 300px;
+}
+
+.nav-bar {
+    margin: 10px 300px auto 300px;
+    display: flex;
+    height: 30px;
+    background-color: blue;
+}
+
+.nav-bar ul li {
+    margin: 0 auto 0 auto;
+    display: inline;
+    float: left;
+}
+
+
+.nav-bar ul li a {
+    margin: 0 auto 0 auto;
+    padding: 0 10px;
+    line-height: 25px;
+    color: black;
+    display: block;
+}
+
+.main {
+    margin: 10px 300px auto 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: block;
+    margin-right: 10px;
+    padding: 10px 10px auto 10px;
+    background-color: blue;
+}
+
+.boxes {
+    display: flex;
+    background-color: blue;
+}
